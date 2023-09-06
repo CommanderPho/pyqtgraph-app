@@ -8,8 +8,10 @@ packages = [{include = "pyqtgraph_app"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-numpy = "^1.25.2"
 pyqtgraph = "^0.13.3"
+pyqt5 = "^5.15.9"
+pyaudio = "^0.2.13"
+numpy = "^1.24.0"
 
 
 [build-system]

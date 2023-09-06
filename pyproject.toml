@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pyqtgraph-app"
+version = "0.1.0"
+description = ""
+authors = ["Pho Hale <PhoHale@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pyqtgraph_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.25.2"
+pyqtgraph = "^0.13.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
